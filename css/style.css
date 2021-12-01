@@ -80,6 +80,7 @@ main {
     border: 1px solid black;
     width: 10%;
     height: 10%;
+    font-size:  1.4rem;
 }
 
 .grid {
@@ -88,3 +89,12 @@ main {
     height: 50vh;
     border: 1px solid black;
 }
+
+footer {
+    background-color: white;
+    padding: 1em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
