@@ -22,12 +22,21 @@ header {
     width: 100%;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
+
 .container {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: auto;
 }
 
 .container-title {
+    height: 100%;
+}
+
+a.logo img {
     height: 100%;
 }
 
@@ -37,8 +46,20 @@ header {
     align-items: center;
 }
 
-.justify-between {
-    justify-content: space-between;
+select#level {
+    margin: 0 0.5em 0 0.5em;
+    width: 9em;
+
+}
+
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button#play {
+    padding: 0 1.5em 0 1.5em;
 }
 
 a.logo {
@@ -46,35 +67,9 @@ a.logo {
     padding-right: 1em;
 }
 
-a.logo img {
-    height: 100%;
-}
-
-select#level {
-    margin: 0 0.5em 0 0.5em;
-    width: 9em;
-
-}
-
-button#play {
-    padding: 0 1.5em 0 1.5em;
-}
-
 main {
     justify-content: center;
     height: 100vh;
-}
-
-.grid {
-    flex-wrap: wrap;
-    width: 65vh;
-    height: 65vh;
-    border: 1px solid black;
-}
-
-.grid h2 {
-    padding: 2em;
-    text-align: center;
 }
 
 .square {
@@ -83,11 +78,16 @@ main {
     justify-content: center;
     cursor: pointer;
     border: 1px solid black;
-    font-size: 1.5rem;
+    width: 10%;
+    height: 10%;
+    font-size:  1.4rem;
 }
 
-.active {
-    background-color: #44d0ff;
+.grid {
+    flex-wrap: wrap;
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
 }
 
 footer {
@@ -97,3 +97,4 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
